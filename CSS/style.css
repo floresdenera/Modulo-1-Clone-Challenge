@@ -1,0 +1,60 @@
+.header {
+    background: url(/IMAGES/fondo.jpeg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .header .navbar {
+    background-color: transparent !important;
+  }
+  .itemsnavbar ul li {
+    float: right;
+    list-style-type: none;
+    text-align: left;
+    margin-right: 15px;
+    font-size: 19px;
+    font-weight: 470;
+    margin-top: 3%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 251, 251, 0.979);
+}
+  .unete{
+      background-color: #05a081;
+      color: white;
+      border-color: #05a081;
+      box-shadow: none;
+      width: 150%;
+  }
+ 
+  .titulo{
+      color: white;
+      text-align: left;
+      margin-top: 4.5%;
+      margin-left: 19.5%;
+      margin-right: 18%;
+  }
+  .titulo h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+  }
+  .d-flex{
+    margin-left: 19.5%;
+    margin-right: 25%;
+    padding-top: 20px;
+  }
+.subtexto h5{
+    color: white;
+    margin-left: 19.5%;
+    font-size: 15px;
+    font-weight: 300;
+    display: inline-block;
+
+}
+.subtexto h4{
+    color: rgba(247, 234, 234, 0.562);
+    font-size: 15px;
+    font-weight: 300;
+    display: inline-block;
+
+}
