@@ -17,6 +17,11 @@
   }
   .navbar-light .navbar-nav .nav-link {
     color: rgba(255, 251, 251, 0.979);
+    
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: rgba(94, 91, 91, 0.979);
+  
 }
   .unete{
       background-color: #05a081;
@@ -58,3 +63,63 @@
     display: inline-block;
 
 }
+.menudos{
+  display: flex;
+  justify-content: center;
+}
+.seccion li {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 20px;
+    padding-right: 40px;
+    padding-left: 30 px;
+}
+.seccion a {
+  color: rgb(77, 72, 72);
+  font-weight: 600;
+  font-size: large;
+}
+.seccion a:hover {
+  color: rgb(43, 120, 192);
+
+}
+.seccionfotos {
+  color: rgb(20, 19, 19);
+  margin-left: 30px;
+}
+.seccionfotos h2{
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.columnas{
+  display: inline-block;
+  width: 100vw;
+}
+/* columna uno */
+.columna-izq{
+  color: blueviolet;
+  width: 33vw; 
+  text-align: center;
+  display: inline;
+}
+.columna-der{
+  color: rgb(42, 110, 54);
+  width: 33vw; 
+  text-align: center;
+  display: inline;
+}
+.columna-medio{
+  width: 33vw; 
+  text-align: center;
+  display: inline;
+  
+}
+ /* intento clumnas dos */
+ main {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 150px 150px;
+}
+
