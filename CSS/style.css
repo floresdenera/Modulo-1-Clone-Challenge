@@ -1,3 +1,5 @@
+/* MAXIMA RESOLUCION */
+
 .header {
     background: url(/IMAGES/fondo.jpeg) no-repeat center;
     background-size: cover;
@@ -111,7 +113,7 @@
 
 
 .columnas{
-  padding: 1%;
+  padding: 2%;
   display: flex;
   width: 100vw;
   
@@ -152,14 +154,13 @@
 
 /* imagenes acomodar */
 .columnas img{
-  display: block;
   width: 90%;
   align-items: center;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 
-/* AJUSTAR A LAP Y TABLET */
+/* AJUSTAR A LAP Y TABLET
 @media (max-width:1000px){
   .columnas{
     display: flex;
@@ -168,5 +169,48 @@
     width: 33vw;
     display: inline-block;
   }
+   */
+/* } */
+
+/* LAPTOP
+@media screen and (max-width: 1000px) {
+  
+.columnas{
+  padding: 2%;
+  display: flex;
+  width: 100vw;
   
 }
+/* columna uno */
+/* .columna-izq{
+  color: blueviolet;
+  flex: 33vw; 
+  text-align: center;
+  display: inline-block;
+}
+.columna-mediouno{
+  color: orange;
+  width: 33vw; 
+  text-align: center;
+  display: inline-block; 
+}
+.columna-mediodos{
+  color: rgb(42, 110, 54);
+  flex: 33vw; 
+  text-align: center;
+  display: inline-block;
+}
+.columna-der{
+  color: rgb(100, 110, 42);
+  flex: 33vw; 
+  text-align: center;
+  
+}
+
+.columnas .columna-izq .columna-mediouno .columna-mediodos div{
+  display: inline-block;
+}
+.columnas .columna-der div{
+  display: block;
+}
+} */ 
